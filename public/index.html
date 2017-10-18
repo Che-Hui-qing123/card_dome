@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="Chen">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="">
+    <title></title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #add {
+            display: block;
+            width: 50px;
+            line-height: 40px;
+            border-radius: 5px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        body {
+            background-color: #4a4a4a;
+            color: white;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            position: absolute;
+            left: calc((100% - 1000px)/2);
+            top: calc((100% - 300px)/2)
+        }
+
+        table td,
+        th {
+            width: 200px;
+            text-align: center;
+            height: 50px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none
+        }
+
+        input[type=text] {
+
+            height: 35px;
+            border-radius: 10px;
+            margin-top: 10px;
+            width: 300px;
+            border: none;
+            border: 1px solid black;
+        }
+
+        .group {
+            margin-top: 10px;
+        }
+
+        form {
+            border-radius: 10px;
+            border: 1px solid black;
+            width: 350px;
+            padding-left: 25px;
+            padding-bottom: 20px;
+            position: absolute;
+            left: calc((100% - 350px)/2)
+        }
+
+        button {
+            width: 300px;
+            height: 35px;
+            border: none;
+            border-radius: 10px;
+            background-color: #e5921a
+        }
+
+        textarea {
+            height: 100px !important;
+            width: 300px;
+            border: none;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .content {
+            position: absolute;
+            left: calc((100% - 500px)/2);
+            top: 150px;
+            color: black;
+
+        }
+        .content a{
+            display:inline-block;
+            width: 50px;
+            line-height: 40px;
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .list{
+            position: absolute;
+            top: -100px;
+            right: -100px;
+        }
+        .bg1 {
+            background-image: url('/img/timg.jpg');
+            width: 500px;
+            height: 300px;
+            transform: rotate(7deg);
+           position: relative;
+            z-index: 1000000;
+        }
+
+        .bg2 {
+            background-image: url('/img/timg (1).jpg');
+            width: 500px;
+            height: 300px;
+            position: relative;
+           
+        }
+        .textOne{
+            position: absolute;
+            right: 20px;
+            bottom: 0;
+        }
+        .textTwo{
+            position: absolute;
+            right: 20px;
+            top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <script src="./libs/require.js" data-main='main'>
+
+    </script>
+</body>
+
+</html>

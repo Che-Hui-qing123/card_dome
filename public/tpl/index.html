@@ -1,0 +1,19 @@
+<a href="#add" id="add">新增</a>
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>tel</th>
+            <th>emil</th>
+            <th>qq</th>
+            <th>操作</th>
+        </tr>
+        {{each models model index}}
+            <tr>
+                <td><a href="#show/{{model.id}}">{{model.name}}</a></td>
+                <td>{{model.tel}}</td>
+                <td>{{model.emil}}</td>
+                <td>{{model.qq}}</td>
+                <td><a id="delecteBtn" data-id='{{model.id}}'>删除</a></td>
+            </tr>
+        {{/each}}
+    </table>
